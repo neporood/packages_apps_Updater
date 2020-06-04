@@ -16,6 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Центр обновлений</string>
+    <string name="display_name">Обновления</string>
     <!-- Directory where the update files will be downloaded and stored.
          WARNING: The application can and will delete any unknown file. -->
     <!-- Directory where the downloads will be exported to.
@@ -26,5 +28,113 @@
           {type} - Build type
           {incr} - Incremental version
     -->
+    <string name="verification_failed_notification">Проверка не удалась</string>
+    <string name="verifying_download_notification">Проверка обновления</string>
+    <string name="downloading_notification">Загрузка</string>
+    <string name="download_paused_notification">Загрузка приостановлена</string>
+    <string name="download_paused_error_notification">Ошибка загрузки</string>
+    <string name="download_completed_notification">Загрузка завершена</string>
+    <string name="download_starting_notification">Загрузка началась</string>
+    <string name="update_failed_notification">Обновление не удалось</string>
+    <string name="installation_suspended_notification">Установка приостановлена</string>
+    <string name="new_updates_found_title">Новые обновлнния</string>
+    <string name="text_download_speed">%1$s, %2$s/сек</string>
+    <string name="pause_button">Пауза</string>
+    <string name="resume_button">Продолжить</string>
+    <string name="suspend_button">Приостановить</string>
+    <string name="installing_update">Установка обновлений</string>
+    <string name="installing_update_error">Ошибка установки</string>
+    <string name="installing_update_finished">Обновление установлено</string>
+    <string name="finalizing_package">Завершение установки</string>
+    <string name="preparing_ota_first_boot">Подготовка к первому запуску</string>
+    <string name="dialog_prepare_zip_message">Предварительная подготовка к обновлению</string>
+    <string name="dialog_battery_low_title">Низкий заряд батареи</string>
+    <string name="dialog_battery_low_message_pct">Заряд батареи слишком мал. Для продолжения требуется не менее <xliff:g id="percent_discharging">%1$d</xliff:g>%% или более <xliff:g id="percent_charging">%2$d</xliff:g>%% при подключенном зарядном устройстве.</string>
+    <string name="reboot">Перезагрузка</string>
+    <string name="menu_refresh">Обновить</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="menu_auto_updates_check">Автоматическая проверка обновлений</string>
+    <string name="menu_auto_updates_check_interval_daily">Раз в день</string>
+    <string name="menu_auto_updates_check_interval_weekly">Раз в неделю</string>
+    <string name="menu_auto_updates_check_interval_monthly">Раз в месяц</string>
+    <string name="menu_auto_updates_check_interval_never">Никогда</string>
+    <string name="menu_auto_delete_updates">Удалить файлы обновления после установки</string>
+    <string name="menu_delete_update">Удалить</string>
+    <string name="menu_copy_url">Копировать URL</string>
+    <string name="menu_export_update">Экспорт обновлений</string>
+    <string name="menu_local_update">Локальная установка</string>
+    <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>
+    <string name="snack_updates_found">Найдено новое обновление</string>
+    <string name="snack_no_updates_found">Новые обновления не найдены</string>
+    <string name="snack_updates_check_failed">Не удалось выполнить поиск обновлений. Проверьте подключение к Интернету, либо повторите попытку позже.</string>
+    <string name="snack_download_failed">Загрузка не удалась. Проверьте подключение к Интернету и повторите попытку.</string>
+    <string name="snack_download_verification_failed">Ошибка проверки обновления.</string>
+    <string name="snack_download_verified">Загрузка завершена.</string>
+    <string name="snack_update_not_installable">Это обновление не может быть установлено поверх текущей сборки.</string>
+    <string name="header_title_text">SuperiorOS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="9.0">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Последняя проверка: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_device_name">Устройство: <xliff:g id="device" example="osprey">%1$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> от <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> от <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Проверка обновления</string>
+    <string name="list_no_updates">Обновлений не найдено. Чтобы проверить наличие обновлений вручную, нажмите на кнопку Обновить.</string>
+    <string name="action_download">Загрузка</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Продолжить</string>
+    <string name="action_install">Установка</string>
+    <string name="action_info">Информация</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_cancel">Отменить</string>
+    <string name="action_changelog">Список изменений</string>
+    <string name="confirm_delete_dialog_title">Удалить файл</string>
+    <string name="confirm_delete_dialog_message">Удалить выбранный файл обновления?</string>
+    <string name="apply_update_dialog_title">Применение обновления</string>
+    <string name="apply_update_dialog_message">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> устройство будет перезапущено и переведено в режим восстановления для установки новой версии.\n\nПримечание: для этой функции необходим совместимый режим восстановления. При возникновении ошибки потребуется установить обновление вручную.</string>
+    <string name="apply_update_dialog_message_ab">Будет выполнено обновление до версии <xliff:g id="update_name">%1$s</xliff:g>.\n\nПри нажатии кнопки <xliff:g id="ok">%2$s</xliff:g> будет начата установка в фоновом режиме.\n\nПо завершении вам будет предложено перезапустить устройство.</string>
+    <string name="cancel_installation_dialog_message">Отменить установку?</string>
+    <string name="label_download_url">Ссылка на скачивание</string>
+    <string name="toast_download_url_copied">URL скопирован</string>
+    <string name="dialog_export_title">Экспорт обновлений</string>
+    <string name="notification_export_success">Обновление экспортировано</string>
+    <string name="notification_export_fail">Ошибка экспорта</string>
+    <string name="toast_already_exporting">Обновление уже экспортируется</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">Осталась 1 секунда</item>
+        <item quantity="few">Осталось  &lt;xliff id="count"&gt;%d&lt;/xliff:g&gt; секунд</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> секунд</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">Осталась 1 минута
+
+Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> минут</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Остался 1 час</item>
+        <item quantity="few">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="many">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+        <item quantity="other">Осталось <xliff:g id="count">%d</xliff:g> часов</item>
+    </plurals>
+    <string name="update_on_mobile_data_title">Предупреждение</string>
+    <string name="update_on_mobile_data_message">Вы собираетесь загрузить пакет обновления с использованием мобильных данных, что, вероятно, приведет использованию большого объема трафика. Хотите продолжить?</string>
+    <string name="checkbox_mobile_data_warning">Не показывать снова</string>
+    <string name="menu_mobile_data_warning">Предупреждение о моб. данных</string>
+    <string name="blocked_update_dialog_title">Обновление заблокировано</string>
+    <string name="blocked_update_dialog_message">Это обновление не может быть установлено с помощью приложения обновления.</string>
+    <string name="export_channel_title">Завершение экспорта</string>
+    <string name="new_updates_channel_title">Новые обновления</string>
+    <string name="ongoing_channel_title">Текущие загрузки</string>
+    <string name="update_failed_channel_title">Обновление не удалось</string>
+    <string name="changelog_fail">Не удалось получить список изменений или список изменений недоступен</string>
     <!-- Maintainer-->
+    <string name="maintainer_name">Кто же Виновник: <xliff:g id="maintainer" example="Subins Mani">%1$s</xliff:g></string>
+    <string name="dialog_permissions_title">Разрешения</string>
+    <string name="dialog_permissions_dismiss">Отклонить</string>
+    <string name="dialog_permissions_ask">Спросить снова</string>
 </resources>
