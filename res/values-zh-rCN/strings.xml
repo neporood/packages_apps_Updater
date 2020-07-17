@@ -62,7 +62,6 @@
     <string name="menu_delete_update">删除</string>
     <string name="menu_copy_url">复制 URL</string>
     <string name="menu_export_update">导出更新</string>
-    <string name="menu_local_update">Local installation</string>
     <string name="menu_ab_perf_mode">更新进程优先</string>
     <string name="snack_updates_found">发现新的更新</string>
     <string name="snack_no_updates_found">没有找到更新</string>
@@ -123,7 +122,4 @@
     <string name="changelog_fail">检索更新日志失败或更新日志不可用</string>
     <!-- Maintainer-->
     <string name="maintainer_name">维护者: <xliff:g id="maintainer" example="Subins Mani">%1$s</xliff:g></string>
-    <string name="dialog_permissions_title">Permissions</string>
-    <string name="dialog_permissions_dismiss">Dismiss</string>
-    <string name="dialog_permissions_ask">Ask again</string>
 </resources>

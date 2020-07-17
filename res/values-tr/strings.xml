@@ -62,7 +62,6 @@
     <string name="menu_delete_update">Sil</string>
     <string name="menu_copy_url">URL adresini kopyala</string>
     <string name="menu_export_update">Güncellemeyi dışarı aktar</string>
-    <string name="menu_local_update">Local installation</string>
     <string name="menu_ab_perf_mode">Güncelleme işlemine öncelik ver</string>
     <string name="snack_updates_found">Yeni güncelleştirmeler bulundu</string>
     <string name="snack_no_updates_found">Yeni güncelleme bulunamadı</string>
@@ -126,7 +125,7 @@
     <string name="changelog_fail">Değişiklik günlüğü alınamadı veya değişiklik günlüğü yok</string>
     <!-- Maintainer-->
     <string name="maintainer_name">Kimi Suçlamalı: <xliff:g id="maintainer" example="Subins Mani">%1$s</xliff:g></string>
-    <string name="dialog_permissions_title">Permissions</string>
-    <string name="dialog_permissions_dismiss">Dismiss</string>
-    <string name="dialog_permissions_ask">Ask again</string>
+    <string name="dialog_permissions_title">İzinler</string>
+    <string name="dialog_permissions_dismiss">Yoksay</string>
+    <string name="dialog_permissions_ask">Tekrar sor</string>
 </resources>

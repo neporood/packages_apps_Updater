@@ -62,7 +62,7 @@
     <string name="menu_delete_update">Hapus</string>
     <string name="menu_copy_url">Salin URL</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
-    <string name="menu_local_update">Local installation</string>
+    <string name="menu_local_update">Instalasi lokal</string>
     <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
     <string name="snack_updates_found">Pembaruan Terbaru Ditemukan</string>
     <string name="snack_no_updates_found">Pembaruan Terbaru Tidak Ditemukan</string>
@@ -123,7 +123,7 @@
     <string name="changelog_fail">Gagal mengambil daftar perubahan atau daftar perubahan tidak tersedia</string>
     <!-- Maintainer-->
     <string name="maintainer_name">Siapa yang harus disalahkan: <xliff:g id="maintainer" example="Subins Mani">%1$s</xliff:g></string>
-    <string name="dialog_permissions_title">Permissions</string>
-    <string name="dialog_permissions_dismiss">Dismiss</string>
-    <string name="dialog_permissions_ask">Ask again</string>
+    <string name="dialog_permissions_title">Perizinan</string>
+    <string name="dialog_permissions_dismiss">Abaikan</string>
+    <string name="dialog_permissions_ask">Tanya lagi</string>
 </resources>
