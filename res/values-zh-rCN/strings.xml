@@ -62,7 +62,6 @@
     <string name="menu_delete_update">删除</string>
     <string name="menu_copy_url">复制 URL</string>
     <string name="menu_export_update">导出更新</string>
-    <string name="menu_ab_perf_mode">更新进程优先</string>
     <string name="snack_updates_found">发现新的更新</string>
     <string name="snack_no_updates_found">没有找到更新</string>
     <string name="snack_updates_check_failed">检查更新失败，请检查您的网络连接并重试</string>

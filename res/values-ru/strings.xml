@@ -63,7 +63,6 @@
     <string name="menu_copy_url">Копировать URL</string>
     <string name="menu_export_update">Экспорт обновлений</string>
     <string name="menu_local_update">Локальная установка</string>
-    <string name="menu_ab_perf_mode">Приоритет процесса обновления</string>
     <string name="snack_updates_found">Найдено новое обновление</string>
     <string name="snack_no_updates_found">Новые обновления не найдены</string>
     <string name="snack_updates_check_failed">Не удалось выполнить поиск обновлений. Проверьте подключение к Интернету, либо повторите попытку позже.</string>

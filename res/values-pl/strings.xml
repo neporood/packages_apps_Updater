@@ -63,7 +63,6 @@
     <string name="menu_copy_url">Kopiuj adres URL</string>
     <string name="menu_export_update">Eksportuj aktualizację</string>
     <string name="menu_local_update">Instalacja lokalna</string>
-    <string name="menu_ab_perf_mode">Priorytet procesu aktualizacji</string>
     <string name="snack_updates_found">Znaleziono nowe aktualizacje</string>
     <string name="snack_no_updates_found">Nie znaleziono nowych aktualizacji</string>
     <string name="snack_updates_check_failed">Sprawdzanie aktualizacji nie powiodło się. Sprawdź swoje połączenie internetowe i spróbuj ponownie później.</string>

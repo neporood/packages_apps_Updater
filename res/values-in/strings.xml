@@ -63,7 +63,6 @@
     <string name="menu_copy_url">Salin URL</string>
     <string name="menu_export_update">Ekspor pembaruan</string>
     <string name="menu_local_update">Instalasi lokal</string>
-    <string name="menu_ab_perf_mode">Prioritaskan proses pembaruan</string>
     <string name="snack_updates_found">Pembaruan Terbaru Ditemukan</string>
     <string name="snack_no_updates_found">Pembaruan Terbaru Tidak Ditemukan</string>
     <string name="snack_updates_check_failed">Pemeriksaan pembaruan gagal. Silakan periksa koneksi internet anda dan coba lagi nanti.</string>
