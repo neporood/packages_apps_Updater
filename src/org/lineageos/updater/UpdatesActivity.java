@@ -448,7 +448,8 @@ public class UpdatesActivity extends UpdatesListActivity {
             // Might be the case of A-only devices using prebuilt vendor images.
             updateRecovery.setVisibility(View.GONE);
         } else if (Utils.isRecoveryUpdateExecPresent()) {
-            updateRecovery.setChecked(prefs.getBoolean(Constants.PREF_UPDATE_RECOVERY, false));
+            updateRecovery.setChecked(
+                    SystemProperties.getBoolean(Constants.UPDATE_RECOVERY_PROPERTY, false));
         } else {
             // There is no recovery updater script in the device, so the feature is considered
             // forcefully enabled, just to avoid users to be confused and complain that
@@ -481,8 +482,6 @@ public class UpdatesActivity extends UpdatesListActivity {
                                     autoDelete.isChecked())
                             .putBoolean(Constants.PREF_MOBILE_DATA_WARNING,
                                     dataWarning.isChecked())
-                            .putBoolean(Constants.PREF_UPDATE_RECOVERY,
-                                    updateRecovery.isChecked())
                             .apply();
 
                     if (Utils.isUpdateCheckEnabled(this)) {
