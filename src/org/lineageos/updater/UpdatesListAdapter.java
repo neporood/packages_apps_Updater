@@ -23,6 +23,7 @@ import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.BatteryManager;
 import android.os.PowerManager;
+import android.os.SystemProperties;
 import android.preference.PreferenceManager;
 import android.text.SpannableString;
 import android.text.format.Formatter;
@@ -566,6 +567,17 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
     }
 
     private void showInfoDialog() {
+        String messageString;
+        SpannableString message;
+        if (SystemProperties.getBoolean("ro.block_updater", false)) {
+            messageString = mActivity.getString(R.string.update_needs_clean_flash_message);
+        } else {
+            messageString = String.format(StringGenerator.getCurrentLocale(mActivity),
+                    mActivity.getString(R.string.blocked_update_dialog_message));
+        }
+
+        message = new SpannableString(messageString);
+
         if (infoDialog != null) {
             infoDialog.dismiss();
         }
