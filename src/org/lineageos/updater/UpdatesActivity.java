@@ -226,6 +226,7 @@ public class UpdatesActivity extends UpdatesListActivity {
             }
             case R.id.menu_local_update: {
                 performFileSearch();
+                return true;
             }
         }
         return super.onOptionsItemSelected(item);
