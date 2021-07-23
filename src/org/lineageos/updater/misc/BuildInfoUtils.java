@@ -33,8 +33,4 @@ public final class BuildInfoUtils {
     public static String getDevice() {
         return SystemProperties.get(Constants.PROP_DEVICE);
     }
-
-    public static String getMaintainer() {
-        return SystemProperties.get(Constants.PROP_MAINTAINER);
-    }
 }

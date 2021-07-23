@@ -144,15 +144,11 @@ public class UpdatesActivity extends UpdatesListActivity {
         headerDeviceName.setText(
                 getString(R.string.list_device_name, BuildInfoUtils.getDevice()));
 
-        TextView MaintainerName = (TextView) findViewById(R.id.header_build_date);
-        MaintainerName.setText(
-                getString(R.string.maintainer_name, BuildInfoUtils.getMaintainer()));
-
         TextView headerBuildVersion = (TextView) findViewById(R.id.header_build_version);
         headerBuildVersion.setText(
                 getString(R.string.header_android_version, Build.VERSION.RELEASE));
 
-        TextView headerBuildDate = (TextView) findViewById(R.id.maintainer_name);
+        TextView headerBuildDate = (TextView) findViewById(R.id.header_build_date);
         headerBuildDate.setText(StringGenerator.getDateLocalizedUTC(this,
                 DateFormat.LONG, BuildInfoUtils.getBuildDateTimestamp()));
 
