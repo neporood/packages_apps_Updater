@@ -91,6 +91,8 @@ public class Utils {
         update.setFileSize(object.getLong("size"));
         update.setDownloadUrl(object.getString("url"));
         update.setVersion(object.getString("version"));
+        update.setDevicename(object.isNull("device_name") ? "" : object.getString("device_name"));
+        update.setMaintainer(object.isNull("maintainer") ? "" : object.getString("maintainer"));
         return update;
     }
 

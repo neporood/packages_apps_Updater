@@ -24,6 +24,8 @@ public class UpdateBase implements UpdateBaseInfo {
     private String mType;
     private String mVersion;
     private long mFileSize;
+    private String mDevicename;
+    private String mMaintainer;
 
     public UpdateBase() {
     }
@@ -36,6 +38,8 @@ public class UpdateBase implements UpdateBaseInfo {
         mType = update.getType();
         mVersion = update.getVersion();
         mFileSize = update.getFileSize();
+        mDevicename = update.getDevicename();
+        mMaintainer = update.getMaintainer();
     }
 
     @Override
@@ -99,5 +103,23 @@ public class UpdateBase implements UpdateBaseInfo {
 
     public void setFileSize(long fileSize) {
         mFileSize = fileSize;
+    }
+
+    @Override
+    public String getDevicename() {
+        return mDevicename;
+    }
+
+    public void setDevicename(String devicename) {
+        mDevicename = devicename;
+    }
+
+    @Override
+    public String getMaintainer() {
+        return mMaintainer;
+    }
+
+    public void setMaintainer(String maintainer) {
+        mMaintainer = maintainer;
     }
 }
