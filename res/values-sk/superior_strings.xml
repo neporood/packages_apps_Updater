@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2018-2021 The SuperiorOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Aktualizácie</string>
+    <string name="display_name">Aktualizácie</string>
+    <string name="verification_failed_notification">Overovanie zlyhalo</string>
+    <string name="verifying_download_notification">Overovanie aktualizácie</string>
+    <string name="downloading_notification">Sťahovanie</string>
+    <string name="download_paused_notification">Sťahovanie pozastavené</string>
+    <string name="download_paused_error_notification">Chyba pri sťahovaní</string>
+    <string name="download_completed_notification">Sťahovanie dokončené</string>
+    <string name="download_starting_notification">Spúšťam sťahovanie</string>
+    <string name="update_failed_notification">Aktualizácia zlyhala</string>
+    <string name="installation_suspended_notification">Inštalácia bola odložená</string>
+    <string name="new_updates_found_title">Nové aktualizácia</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="pause_button">Pozastaviť</string>
+    <string name="resume_button">Pokračovať</string>
+    <string name="suspend_button">Odložiť</string>
+    <string name="installing_update">Inštalácia balíka aktualizácie</string>
+    <string name="installing_update_error">Chyba inštalácie</string>
+    <string name="installing_update_finished">Aktualizácia nainštalovaná</string>
+    <string name="finalizing_package">Dokončovanie inštalácie balíka</string>
+    <string name="preparing_ota_first_boot">Príprava na prvé spustenie</string>
+    <string name="dialog_prepare_zip_message">Predbežná príprava aktualizácie</string>
+    <string name="dialog_battery_low_title">Nízky stav batérie</string>
+    <string name="dialog_battery_low_message_pct">Úroveň nabitia batérie je príliš nízka, budete potrebovať aspoň <xliff:g id="percent_discharging">%1$d</xliff:g>%% batérie na pokračovanie, <xliff:g id="percent_charging">%2$d</xliff:g>%% pri nabíjaní.</string>
+    <string name="reboot">Reštartovať</string>
+    <string name="menu_refresh">Obnoviť</string>
+    <string name="menu_preferences">Predvoľby</string>
+    <string name="menu_auto_updates_check">Automatická kontrola aktualizácií</string>
+    <string name="menu_auto_updates_check_interval_daily">Raz denne</string>
+    <string name="menu_auto_updates_check_interval_weekly">Raz za týždeň</string>
+    <string name="menu_auto_updates_check_interval_monthly">Raz za mesiac</string>
+    <string name="menu_auto_updates_check_interval_never">Nikdy</string>
+    <string name="menu_auto_delete_updates">Vymazať aktualizácie po nainštalovaní</string>
+    <string name="menu_delete_update">Odstrániť</string>
+    <string name="menu_copy_url">Kopírovať URL</string>
+    <string name="menu_export_update">Export aktualizácie</string>
+    <string name="menu_local_update">Lokálna inštalácia</string>
+    <string name="menu_update_recovery">Aktualizovať recovery</string>
+    <string name="toast_forced_update_recovery">Na tomto zariadení nie je možné zakázať aktualizácie oddielu Lineage recovery</string>
+    <string name="snack_updates_found">Našli sa nové aktualizácie</string>
+    <string name="snack_no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
+    <string name="snack_updates_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím vaše internetové pripojenie a skúste to znova neskôr.</string>
+    <string name="snack_download_failed">Sťahovanie zlyhalo. Skontrolujte vaše pripojenie a skúste to znovu.</string>
+    <string name="snack_download_verification_failed">Overovanie aktualizácie zlyhalo.</string>
+    <string name="snack_download_verified">Sťahovanie dokončené.</string>
+    <string name="snack_update_not_installable">Táto aktualizácia sa nedá nainštalovať na aktuálnu zostavu.</string>
+    <string name="header_title_text">SuperiorOS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="9.0">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Posledná kontrola: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_device_name">Zariadenie: <xliff:g id="device" example="osprey">%1$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> z <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> z <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Overovanie aktualizácie</string>
+    <string name="list_no_updates">Neboli nájdené žiadne nové aktualizácie. Ak chcete manuálne vyhľadať nové aktualizácie, použite tlačidlo Obnoviť.</string>
+    <string name="action_download">Stiahnuť</string>
+    <string name="action_pause">Pozastaviť</string>
+    <string name="action_resume">Pokračovať</string>
+    <string name="action_install">Inštalovať</string>
+    <string name="action_info">Informácie</string>
+    <string name="action_delete">Odstrániť</string>
+    <string name="action_cancel">Zrušiť</string>
+    <string name="action_changelog">Zoznam zmien</string>
+    <string name="confirm_delete_dialog_title">Odstrániť súbor</string>
+    <string name="confirm_delete_dialog_message">Odstrániť vybraný súbor aktualizácie?</string>
+    <string name="apply_update_dialog_title">Použiť aktualizáciu</string>
+    <string name="apply_update_dialog_message">Chystáte se aktualizovat na <xliff:g id="update_name">%1$s</xliff:g>.\n\nAk stlačíte <xliff:g id="ok">%2$s</xliff:g>, telefón sa reštartuje do režimu Recovery, kde budete pokračovať v inštalácii aktualizácie.\n\nPoznámka: táto funkcia vyžaduje nainštalovaný kompatibilný režim Recovery alebo je nutné inštaláciu vykonať ručne.</string>
+    <string name="apply_update_dialog_message_ab">Chystáte sa inštalovať <xliff:g id="update_name">%1$s</xliff:g>.\n\nAk stlačíte <xliff:g id="ok">%2$s</xliff:g>, spustí sa inštalácia na pozadí.\n\nPo dokončení budete vyzváni k restartu zariadenia.</string>
+    <string name="cancel_installation_dialog_message">Zrušiť inštaláciu?</string>
+    <string name="label_download_url">URL pre stiahnutie</string>
+    <string name="toast_download_url_copied">URL skopírované</string>
+    <string name="dialog_export_title">Export aktualizácie</string>
+    <string name="notification_export_success">Aktualizácia exportovaná</string>
+    <string name="notification_export_fail">Chyba exportu</string>
+    <string name="toast_already_exporting">Aktualizácia sa už exportuje</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">Ostáva 1 sekunda</item>
+        <item quantity="few">Ostávajú <xliff:g id="count">%d</xliff:g> sekundy</item>
+        <item quantity="many">Ostáva <xliff:g id="count">%d</xliff:g> sekúnd</item>
+        <item quantity="other">Zostáva <xliff:g id="count">%d</xliff:g> sekúnd</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">zostáva %d minúta</item>
+        <item quantity="few">Zostávajú <xliff:g id="count">%d</xliff:g> minúty</item>
+        <item quantity="many">Zostávajú <xliff:g id="count">%d</xliff:g> minúty</item>
+        <item quantity="other">Zostávajú <xliff:g id="count">%d</xliff:g> minúty</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">Zostáva 1 hodina</item>
+        <item quantity="few">Zostávajú <xliff:g id="count">%d</xliff:g> hodiny</item>
+        <item quantity="many">Zostáva <xliff:g id="count">%d</xliff:g> hodín</item>
+        <item quantity="other">Zostáva <xliff:g id="count">%d</xliff:g> hodín</item>
+    </plurals>
+    <string name="update_on_mobile_data_title">Varovanie</string>
+    <string name="update_on_mobile_data_message">Chystáte sa stiahnuť aktualizáciu pomocou mobilných dát, čo pravdepodobne zapríčiní veľkú spotrebu mobilných dát. Prajete si pokračovať?</string>
+    <string name="checkbox_mobile_data_warning">Nezobrazovať znovu</string>
+    <string name="menu_mobile_data_warning">Upozornenie na využitie mobilných dát</string>
+    <string name="blocked_update_dialog_title">Aktualizácia zablokovaná</string>
+    <string name="blocked_update_dialog_message">Túto aktualizáciu nie je možné nainštalovať pomocou aplikácie Updater. Na inštaláciu tohto súboru zips budete potrebovať reset do továrenského nastavenia (vymaže všetky dáta). Stiahnite si a nainštalujte súbor zips ručne.</string>
+    <string name="update_needs_clean_flash_message">Túto aktualizáciu nie je možné nainštalovať pomocou aplikácie Updater. Aby ste mohli nainštalovať tento zips, nezabudnite vykonať zálohu na externé zariadenia a naformátovať interné úložisko (formátovať dáta). Stiahnite z webových stránok súbor zips a ručne nainštalujte.</string>
+    <string name="export_channel_title">Dokončenie exportu</string>
+    <string name="new_updates_channel_title">Nové aktualizácia</string>
+    <string name="ongoing_channel_title">Prebiehajúce sťahovania</string>
+    <string name="update_failed_channel_title">Aktualizácia zlyhala</string>
+    <string name="changelog_fail">Nepodarilo sa načítať zoznam zmien alebo nie je zoznam zmien k dispozícii</string>
+    <string name="dialog_permissions_title">Oprávnenia</string>
+    <string name="dialog_permissions_dismiss">Zamietnuť</string>
+    <string name="dialog_permissions_ask">Vždy sa pýtať</string>
+</resources>
