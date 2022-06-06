@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2018-2021 The SuperiorOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Actualizaciones</string>
+    <string name="display_name">Actualizaciones</string>
+    <string name="verification_failed_notification">La verificación ha fallado</string>
+    <string name="verifying_download_notification">Verificando actualización</string>
+    <string name="downloading_notification">Descargando</string>
+    <string name="download_paused_notification">Descarga pausada</string>
+    <string name="download_paused_error_notification">Error de descarga</string>
+    <string name="download_completed_notification">Descarga completada</string>
+    <string name="download_starting_notification">Iniciando descarga</string>
+    <string name="update_failed_notification">Actualización fallida</string>
+    <string name="installation_suspended_notification">Instalación suspendida</string>
+    <string name="new_updates_found_title">Nuevas actualizaciones</string>
+    <string name="text_download_speed">%1$s, %2$s/s</string>
+    <string name="pause_button">Pausar</string>
+    <string name="resume_button">Reanudar</string>
+    <string name="suspend_button">Suspender</string>
+    <string name="installing_update">Instalando paquete de actualización</string>
+    <string name="installing_update_error">Error de instalación</string>
+    <string name="installing_update_finished">Actualización instalada</string>
+    <string name="finalizing_package">Finalizando la instalación del paquete</string>
+    <string name="preparing_ota_first_boot">Preparando para el primer arranque</string>
+    <string name="dialog_prepare_zip_message">El teléfono se está preparando para actualizarse</string>
+    <string name="dialog_battery_low_title">Batería baja</string>
+    <string name="dialog_battery_low_message_pct">El nivel de la batería es demasiado bajo, necesita al menos <xliff:g id="percent_discharging">%1$d</xliff:g>%% de batería para continuar, <xliff:g id="percent_charging">%2$d</xliff:g>%% si está cargando.</string>
+    <string name="reboot">Reiniciar</string>
+    <string name="menu_refresh">Refrescar</string>
+    <string name="menu_preferences">Preferencias</string>
+    <string name="menu_auto_updates_check">Comprobación automática de actualizaciones</string>
+    <string name="menu_auto_updates_check_interval_daily">Una vez al día</string>
+    <string name="menu_auto_updates_check_interval_weekly">Una vez por semana</string>
+    <string name="menu_auto_updates_check_interval_monthly">Una vez al mes</string>
+    <string name="menu_auto_updates_check_interval_never">Nunca</string>
+    <string name="menu_auto_delete_updates">Borrar paquete de actualización tras instalar</string>
+    <string name="menu_delete_update">Borrar</string>
+    <string name="menu_copy_url">Copiar URL</string>
+    <string name="menu_export_update">Exportar actualización</string>
+    <string name="menu_local_update">Instalación local</string>
+    <string name="menu_update_recovery">Actualizar recovery</string>
+    <string name="toast_forced_update_recovery">Es imposible desactivar las actualizaciones del Recovery de Lineage en este dispositivo.</string>
+    <string name="snack_updates_found">Nueva actualización encontrada</string>
+    <string name="snack_no_updates_found">No se han encontrado nuevas actualizaciones</string>
+    <string name="snack_updates_check_failed">Error en la comprobación de actualizaciones. Por favor, comprueba tu conexión a internet e inténtalo nuevamente.</string>
+    <string name="snack_download_failed">Descarga fallida. Compruebe la conexión a Internet e inténtelo nuevamente.</string>
+    <string name="snack_download_verification_failed">La verificación de la actualización falló.</string>
+    <string name="snack_download_verified">Descarga completada.</string>
+    <string name="snack_update_not_installable">Esta actualización no puede instalarse sobre la versión actual.</string>
+    <string name="header_title_text">SuperiorOS</string>
+    <string name="header_android_version">Android <xliff:g id="version" example="9.0">%1$s</xliff:g></string>
+    <string name="header_last_updates_check">Última comprobación: <xliff:g id="date" example="1 January 1970">%1$s</xliff:g> (<xliff:g id="time" example="01:23">%2$s</xliff:g>)</string>
+    <string name="list_build_version">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g></string>
+    <string name="list_build_version_date">SuperiorOS <xliff:g id="version" example="14.1">%1$s</xliff:g> - <xliff:g id="date" example="July 11, 2017">%2$s</xliff:g></string>
+    <string name="list_device_name">Dispositivo: <xliff:g id="device" example="osprey">%1$s</xliff:g></string>
+    <string name="list_download_progress_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> • <xliff:g id="percentage" example="56">%3$s</xliff:g></string>
+    <string name="list_download_progress_eta_new"><xliff:g id="filesize_without_unit" example="12.2">%1$s</xliff:g> de <xliff:g id="filesize_without_unit" example="310 MB">%2$s</xliff:g> (<xliff:g id="eta" example="3 minutes left">%3$s</xliff:g>) • <xliff:g id="percentage" example="56">%4$s</xliff:g></string>
+    <string name="list_verifying_update">Verificando actualización</string>
+    <string name="list_no_updates">No se han encontrado nuevas actualizaciones. Para comprobar manualmente, pulsa el botón «Actualizar».</string>
+    <string name="action_download">Descargar</string>
+    <string name="action_pause">Pausar</string>
+    <string name="action_resume">Continuar</string>
+    <string name="action_install">Instalar</string>
+    <string name="action_info">Información</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_changelog">Registro de cambios</string>
+    <string name="confirm_delete_dialog_title">Borrar archivo</string>
+    <string name="confirm_delete_dialog_message">¿Eliminar el archivo de actualización seleccionado?</string>
+    <string name="apply_update_dialog_title">Aplicar actualización</string>
+    <string name="apply_update_dialog_message">Se actualizará a <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi presionas <xliff:g id="ok">%2$s</xliff:g>, el dispositivo se reiniciará para instalar la actualización.\n\nNota: esta función requiere de un Recovery compatible de lo contrario se deberán instalar las actualizaciones de forma manual.</string>
+    <string name="apply_update_dialog_message_ab">Está a punto de actualizar a <xliff:g id="update_name">%1$s</xliff:g>.\n\nSi presionas <xliff:g id="ok">%2$s</xliff:g>, el dispositivo comenzará la instalación en segundo plano.\n\nUna vez completado, se le pedirá que reinicie.</string>
+    <string name="cancel_installation_dialog_message">¿Cancelar la instalación?</string>
+    <string name="label_download_url">Descargar URL</string>
+    <string name="toast_download_url_copied">URL copiada</string>
+    <string name="dialog_export_title">Exportando actualización</string>
+    <string name="notification_export_success">Actualización exportada</string>
+    <string name="notification_export_fail">Error al exportar</string>
+    <string name="toast_already_exporting">Ya se está exportando una actualización</string>
+    <plurals name="eta_seconds">
+        <item quantity="one">1 segundo restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> segundos restante</item>
+    </plurals>
+    <plurals name="eta_minutes">
+        <item quantity="one">1 minuto restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> minutos restantes</item>
+    </plurals>
+    <plurals name="eta_hours">
+        <item quantity="one">1 hora restante</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> horas restantes</item>
+    </plurals>
+    <string name="update_on_mobile_data_title">Advertencia</string>
+    <string name="update_on_mobile_data_message">Está a punto de descargar un paquete de actualización utilizando datos móviles, lo que probablemente provocará un alto uso de datos. ¿Deseas continuar?</string>
+    <string name="checkbox_mobile_data_warning">No volver a mostrar</string>
+    <string name="menu_mobile_data_warning">Alerta de datos móviles</string>
+    <string name="blocked_update_dialog_title">Actualización bloqueada</string>
+    <string name="blocked_update_dialog_message">Esta actualización no se puede instalar usando la aplicación de actualización. Puede que necesite un restablecimiento de fábrica (borra todos los datos) para instalar este archivo ZIP. Por favor, descargue e instale el zip manualmente.</string>
+    <string name="update_needs_clean_flash_message">Esta actualización no se puede instalar a través de la aplicación de actualización. Asegúrese de realizar una copia de seguridad en un dispositivo externo y formatear el almacenamiento interno (format data) para instalar este zip. Por favor, descargue e instale el zip manualmente desde el sitio web.</string>
+    <string name="export_channel_title">Exportación finalizada</string>
+    <string name="new_updates_channel_title">Nuevas actualizaciones</string>
+    <string name="ongoing_channel_title">Descargas en curso</string>
+    <string name="update_failed_channel_title">Actualización fallida</string>
+    <string name="changelog_fail">Error al recuperar registro de cambios o registro de cambios no disponible</string>
+    <string name="dialog_permissions_title">Permisos</string>
+    <string name="dialog_permissions_dismiss">Descartar</string>
+    <string name="dialog_permissions_ask">Preguntar de nuevo</string>
+</resources>
